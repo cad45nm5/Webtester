@@ -6,7 +6,7 @@ g_num = 0
 
 def job(num):
     global g_num 
-    browser = webdriver.Firefox()
+    browser = webdriver.Chrome()
     browser.get('http://vm1.rsx.com.tw/web/user.php')
 
     account='aaa'
